@@ -1,0 +1,65 @@
+name: Build and publish DebRepo
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'pool/**'
+      - '.github/workflows/debrepo.yml'
+      - 'scripts/build_repo.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build APT metadata
+        run: python3 scripts/build_repo.py
+
+      - name: Commit generated metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Packages Packages.gz Release
+          if git diff --cached --quiet; then
+            echo "Metadata is already up to date."
+          else
+            git commit -m "Automatically update APT metadata"
+            git push
+          fi
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Rebuild metadata for Pages artifact
+        run: python3 scripts/build_repo.py
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
