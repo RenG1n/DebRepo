@@ -1,5 +1,5 @@
 # DebRepo
-[![TikTok](https://img.shields.io/badge/🎬%20TikTok-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@_1m_05_)
+[![TikTok](https://img.shields.io/badge/🎬-TikTok-000000?style=flat-square)](https://www.tiktok.com/@_1m_05_)
 
 Автоматический APT-репозиторий для Sileo/Cydia от RenG1n.
 
