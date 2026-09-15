@@ -5,14 +5,14 @@ Codename: stable
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: DebRepo jailbreak repository by RenG1n
-Date: Tue, 08 Sep 2026 11:54:49 UTC
+Date: Tue, 15 Sep 2026 18:00:29 UTC
 
 MD5Sum:
- a3e2e11489d6e8153171f3a55cf26cc8             2394 Packages
- b8710c11c9096396ba69773c14ba306f             1221 Packages.gz
+ 952cc75822ad0fed2e026ea0e0354c5f             4185 Packages
+ c24bfcd97fe9e888df1735e14fcc43bf             1956 Packages.gz
 SHA256:
- 6b840b252bf8b9b0fbdeb92a359db38eab22b8aa5b9b9b411e522ee19ea73c0f             2394 Packages
- 66660ed00acfa3591dd01cf208763fa45b182a6a34bfb32f9b136c1f6f283859             1221 Packages.gz
+ 2f04c92c0ebf1409987aba08295c2fed7744546a7dbb2d480a4c2966effdd890             4185 Packages
+ e55d5fc2545a51a4aa9abab1d3b3a4f099fa66c356bf913646c405b328caadde             1956 Packages.gz
 SHA512:
- 4161ba014186f401b5970f19727bc8b5783df6fdc0b938364766b5ff67a403bafa8b83e07b38791601c1c10d0e9e53ddf34492154cee0c37eb87ff7d3dff2d89             2394 Packages
- fdbf0746f97c3f99f7968fb9449fbbcd73c29632fd3db5b8f16f94900bebbbff8a466569631d2e4d21988e445a0d94f463764a7c02cc119705b111288690c181             1221 Packages.gz
+ 67e9617a0bdc45320651e81fdf731f0ad99c2431f5a697afb7fb01546aa9540ef1ac6bebd73510872eb2c6782478bdc3fa33501f9e72131aef9210814d115d46             4185 Packages
+ 6e3b6a949296827b1782af89c142c111168bdc08c050b30b6678e98c220b0e9e9a6c537b290671d49de547320668f3292d034fd4c3c74421f73ab8d16f038dc8             1956 Packages.gz
