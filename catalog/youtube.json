@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Cercube",
+    "package": "com.cercube.ios",
+    "catalog_version": "6.3.0",
+    "name_in_index": "Cercube for YouTube",
+    "developer": "cercube <support@cercube.com>",
+    "category": "YouTube",
+    "section": "Tweaks",
+    "architecture": "iphoneos-arm",
+    "ios_min": "15.0",
+    "ios_max": null,
+    "depends": "firmware (>= 15.0)",
+    "conflicts": "",
+    "source_repo": "https://havoc.app/",
+    "filename_in_index": "api/download/package/6abea8366d2b31494d7d0f5f/com.cercube.ios_6.3.0_iphoneos-arm.deb",
+    "installed_size": "3452",
+    "description": "Supercharge your YouTube app.",
+    "status": "NOT COMPATIBLE",
+    "issues": [
+      "requires iOS >= 15.0"
+    ],
+    "note": "YouTube suite (paid)",
+    "official_page": "https://cercube.com/",
+    "ios12": "not compatible/unknown",
+    "chimera": "n/a",
+    "distribution": "NOT DISTRIBUTABLE (commercial/proprietary; catalog only)",
+    "deb_added": false
+  },
+  {
+    "name": "YouTubePatcher",
+    "package": "com.cydiageek.youtubepatcher",
+    "category": "YouTube",
+    "status": "NOT FOUND",
+    "note": "YouTube patcher",
+    "searched_indexes": [
+      "bigboss",
+      "chariz",
+      "havoc",
+      "poomsmart"
+    ]
+  },
+  {
+    "name": "YouTube Tools",
+    "package": "com.tomaszpoliszuk.youtubetools",
+    "category": "YouTube",
+    "status": "NOT FOUND",
+    "note": "YouTube tools",
+    "searched_indexes": [
+      "bigboss",
+      "chariz",
+      "havoc",
+      "poomsmart"
+    ]
+  },
+  {
+    "name": "Youtubed",
+    "package": "com.tomaszpoliszuk.youtubed",
+    "category": "YouTube",
+    "status": "NOT FOUND",
+    "note": "YouTube downloader",
+    "searched_indexes": [
+      "bigboss",
+      "chariz",
+      "havoc",
+      "poomsmart"
+    ]
+  }
+]

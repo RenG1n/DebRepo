@@ -1,0 +1,28 @@
+[
+  {
+    "name": "BetterTelegram",
+    "package": "com.cydiageek.bettertelegram",
+    "catalog_version": "1.0.1",
+    "name_in_index": "BetterTelegram",
+    "developer": "CydiaGeek <lucaluca86@aol.com>",
+    "category": "Telegram",
+    "section": "Tweaks",
+    "architecture": "iphoneos-arm",
+    "ios_min": "9.0",
+    "ios_max": null,
+    "depends": "mobilesubstrate, firmware (>= 9.0), preferenceloader",
+    "conflicts": "",
+    "source_repo": "http://apt.thebigboss.org/repofiles/cydia/",
+    "filename_in_index": "debs2.0/bettertelegram_1.0.1.deb",
+    "installed_size": "502",
+    "description": "Better options for Telegram & More!",
+    "status": "VERIFIED",
+    "issues": [],
+    "note": "Telegram enhancer",
+    "official_page": null,
+    "ios12": "compatible",
+    "chimera": "expected OK (rootful, substrate-compatible)",
+    "distribution": "NOT DISTRIBUTABLE (commercial/proprietary; catalog only)",
+    "deb_added": false
+  }
+]
