@@ -106,3 +106,23 @@ git remote set-url origin https://<TOKEN>@github.com/RenG1n/DebRepo.git
 - Наличие `mobilesubstrate` в зависимостях не блокирует Chimera: libhooker предоставляет совместимость.
 - Отсутствие пакета в индексах не означает, что его не существует: часть пакетов размещалась
   на Packix (закрыт) и приватных репозиториях.
+
+## 8. Этап 2 — расширение коллекции
+
+Добавлено ещё 35 пакетов (итого 48 в `pool/`), все — `iphoneos-arm`, rootful, с подтверждённой
+минимальной версией iOS ≤ 12.5.8 и сверенным SHA256:
+
+- **Системные утилиты и UI**: Battery Percentage Enabler, NoMoreAppBar, NoLargeTitles,
+  NewGridSwitcher, CompactDate, NoSwitcherKillBoxX, HideScreenshotPreview, PasscodeComesFirst,
+  LockScreenBugFix (iOS 11/12), NoArrows, NoStatusBarNC, NoCallBlur, BatteryColor,
+  FreeRAMUnderTimeX, NoNoSquare, No Feedback, StayDown, KeepMyJB, Easy Notifications,
+  ReelsAlwaysAvailable, BringBackIGLikes.
+- **YouTube (PoomSmart)**: YTDarker, YTNoCheckLocalNetwork, YTUnShorts, YTShortsProgress,
+  NoYTPremium, YTAutoFullScreen, UncappedAVPlayer, HDAvatar, YTNoPaidPromo, YTSilentVote,
+  LineBreakLiberator.
+- **Получены ранее недоступные**: Zenith (Havoc), CopyLog (Havoc), Safari Plus (BigBoss),
+  Cylinder (BigBoss), Cylinder Reborn (Chariz), BadgeMeNot, HuddyX, RealCC, CCSupport,
+  BetterTelegram, YouTube X, Return YouTube Dislike.
+
+Не получены: **Jellyfish** (Chariz, rate limit 429), **Xen HTML** (Havoc, 4.4 МБ, обрыв).
+Платные: Cercube, Rocket for Instagram, BioProtect XS — остаются внешними ссылками.
