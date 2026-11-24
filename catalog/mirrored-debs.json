@@ -1,8 +1,140 @@
 {
   "generated_from": "Packages",
-  "count": 48,
+  "count": 67,
   "note": "Пакеты, реально размещённые в pool/ и включённые в индекс DebRepo.",
   "packages": [
+    {
+      "name": null,
+      "package": "adv-cmds",
+      "version": "176-1",
+      "architecture": "iphoneos-arm",
+      "section": "Administration",
+      "developer": "Sam Bingner <maintainer@sbdhi.com>",
+      "depends": "ncurses",
+      "size": 52702,
+      "sha256": "2b7c4f182e6ca18e4d8f9c0430f3b46df34bf41f22b6dd0f08bd028fee62f4ef",
+      "filename": "./pool/adv-cmds_176-1_iphoneos-arm.deb"
+    },
+    {
+      "name": null,
+      "package": "top",
+      "version": "39-2",
+      "architecture": "iphoneos-arm",
+      "section": "Administration",
+      "developer": "Jay Freeman (saurik) <saurik@saurik.com>",
+      "depends": "ncurses",
+      "size": 60866,
+      "sha256": "bc7dbe5057579b29b1e5759b29bc892323188d29f92d15f7576b008d7c009bf9",
+      "filename": "./pool/top_39-2_iphoneos-arm.deb"
+    },
+    {
+      "name": "Cycript",
+      "package": "cycript",
+      "version": "0.9.594",
+      "architecture": "iphoneos-arm",
+      "section": "Development",
+      "developer": "Jay Freeman (saurik) <saurik@saurik.com>",
+      "depends": "readline, adv-cmds, mobilesubstrate (>= 0.9.6300)",
+      "size": 1225008,
+      "sha256": "d522870cf118466a27854ed0d3ead9fa1f102365016375e204c97d34a9408ca1",
+      "filename": "./pool/cycript_0.9.594_iphoneos-arm.deb"
+    },
+    {
+      "name": null,
+      "package": "liblldb-10",
+      "version": "10.0.0~svn-20200108+247e5b37d63-1",
+      "architecture": "iphoneos-arm",
+      "section": "Development",
+      "developer": "Sam Bingner <maintainer@sbdhi.com>",
+      "depends": "libllvm10, libclang-cpp10, xz, python",
+      "size": 3442480,
+      "sha256": "302f872f0e5f414806362f3e052484d764f1bea8bd63bf97a0060fc23acd922f",
+      "filename": "./pool/liblldb-10_10.0.0~svn-20200108+247e5b37d63-1_iphoneos-arm.deb"
+    },
+    {
+      "name": null,
+      "package": "lldb-10",
+      "version": "10.0.0~svn-20200108+247e5b37d63-1",
+      "architecture": "iphoneos-arm",
+      "section": "Development",
+      "developer": "Sam Bingner <maintainer@sbdhi.com>",
+      "depends": "liblldb-10, debugserver-10",
+      "size": 653552,
+      "sha256": "6501f5e9ca4f190ffc11c522cd5bf8592ef789c583b00b57e2392aff276e6493",
+      "filename": "./pool/lldb-10_10.0.0~svn-20200108+247e5b37d63-1_iphoneos-arm.deb"
+    },
+    {
+      "name": "Darwin CC Tools",
+      "package": "org.coolstar.cctools",
+      "version": "895",
+      "architecture": "iphoneos-arm",
+      "section": "Development",
+      "developer": "CoolStar <coolstarorganization@gmail.com>",
+      "depends": "openssl, uuid, org.coolstar.ld64",
+      "size": 1288458,
+      "sha256": "09debe36e1d3655a8504492d3a3b949a622291f5d9ae781089e1264123f88e24",
+      "filename": "./pool/cctools_895.deb"
+    },
+    {
+      "name": "OpenSSH",
+      "package": "openssh",
+      "version": "8.4-2",
+      "architecture": "iphoneos-arm",
+      "section": "Networking",
+      "developer": "Sam Bingner <maintainer@sbdhi.com>",
+      "depends": "libssl1.1.1, openssh-server, openssh-client, openssh-global-listener",
+      "size": 1022,
+      "sha256": "aa7417489ad4d823713905347804b3fd1f481b710ec2512bed9d22b356875454",
+      "filename": "./pool/openssh_8.4-2_iphoneos-arm.deb"
+    },
+    {
+      "name": "OpenSSH Clients",
+      "package": "openssh-client",
+      "version": "8.4-2",
+      "architecture": "iphoneos-arm",
+      "section": "Networking",
+      "developer": "Sam Bingner <maintainer@sbdhi.com>",
+      "depends": "libssl1.1.1",
+      "size": 568946,
+      "sha256": "cf0c5846564ba8dc28ff75fff3c0ff1d63c8c404abc9643fe7e22affa55afa82",
+      "filename": "./pool/openssh-client_8.4-2_iphoneos-arm.deb"
+    },
+    {
+      "name": "OpenSSH Server Binaries",
+      "package": "openssh-server",
+      "version": "8.4-2",
+      "architecture": "iphoneos-arm",
+      "section": "Networking",
+      "developer": "Sam Bingner <maintainer@sbdhi.com>",
+      "depends": "libssl1.1.1, openssh-client (>= 8.4)",
+      "size": 289990,
+      "sha256": "5eab9bf07f41bc3be79e977a3ea170add9e15e40cb8b84ac09901f11d9cd7768",
+      "filename": "./pool/openssh-server_8.4-2_iphoneos-arm.deb"
+    },
+    {
+      "name": null,
+      "package": "rsync",
+      "version": "3.1.3-2",
+      "architecture": "iphoneos-arm",
+      "section": "Networking",
+      "developer": "Sam Bingner <maintainer@sbdhi.com>",
+      "depends": "",
+      "size": 204536,
+      "sha256": "7b9442cc2b4b633103437f9eb2293d3d2aade68a836f808aea9aa2fb143ce69b",
+      "filename": "./pool/rsync_3.1.3-2_iphoneos-arm.deb"
+    },
+    {
+      "name": "Zebra",
+      "package": "xyz.willy.zebra",
+      "version": "1.1.36",
+      "architecture": "iphoneos-arm",
+      "section": "Packaging",
+      "developer": "Zebra Team <team@getzbra.com>",
+      "depends": "dpkg, uikittools, firmware (>= 9.0)",
+      "size": 8451692,
+      "sha256": "e724e4e45807880b9a4122100e89c4ea8326ce56dd3223abbbb01757779d5f5f",
+      "filename": "./pool/xyz.willy.zebra_1.1.36_iphoneos-arm.deb"
+    },
     {
       "name": "AppSync Unified",
       "package": "ai.akemi.appsyncunified",
@@ -50,6 +182,18 @@
       "size": 3126,
       "sha256": "60583f6639bed92fdf22da5f14a6f938e9daa3bcbc8ab586c38cca4bc37c89f7",
       "filename": "./pool/passcodecomesfirst_2.3.deb"
+    },
+    {
+      "name": "Batchomatic",
+      "package": "com.captinc.batchomatic",
+      "version": "4.3.1",
+      "architecture": "iphoneos-arm",
+      "section": "Tweaks",
+      "developer": "Capt Inc <teamcaptinc@gmail.com>",
+      "depends": "firmware (>= 11.0), mobilesubstrate, coreutils",
+      "size": 65672,
+      "sha256": "e607d18a02818484f9f84c4b834df2c3bc18e99e446badc75f5ad761298d98ad",
+      "filename": "./pool/batchomatic_4.3.1.deb"
     },
     {
       "name": "BatteryColor",
@@ -220,6 +364,18 @@
       "filename": "./pool/huddyx_1.2.deb"
     },
     {
+      "name": "Cr4shed",
+      "package": "com.muirey03.cr4shed",
+      "version": "4.3.0",
+      "architecture": "iphoneos-arm",
+      "section": "Tweaks",
+      "developer": "Muirey03",
+      "depends": "mobilesubstrate, com.muirey03.libmryipc, cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)",
+      "size": 149078,
+      "sha256": "7a58e56ff3b6e13a3ab604f35cf1d04300e28f95b8f5cee1ef0bbbee80dba049",
+      "filename": "./pool/com.muirey03.cr4shed_4.3.0_iphoneos-arm.deb"
+    },
+    {
       "name": "Zenith",
       "package": "com.muirey03.zenith",
       "version": "1.2.6",
@@ -242,6 +398,18 @@
       "size": 64444,
       "sha256": "6f7ea4f20890ae879e9548b1f0261b8f12b37a6575ae8685d2585ec372669198",
       "filename": "./pool/ccsupport_1.3.13-2.deb"
+    },
+    {
+      "name": "Choicy",
+      "package": "com.opa334.choicy",
+      "version": "1.5.4-2",
+      "architecture": "iphoneos-arm",
+      "section": "Tweaks",
+      "developer": "opa334 <opa334@protonmail.com>",
+      "depends": "firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)",
+      "size": 261546,
+      "sha256": "8e7b2a33430b46c2544b79373b8a10e0e641e311a2d319d7a0adfad7d279bebf",
+      "filename": "./pool/choicy_1.5.4-2.deb"
     },
     {
       "name": "Safari Plus",
@@ -568,6 +736,54 @@
       "filename": "./pool/weeb.lillie.youtubedislikesreturn_1.14.2_iphoneos-arm.deb"
     },
     {
+      "name": "PowerSelector (iOS 11 & 12)",
+      "package": "com.ichitaso.powerselector11",
+      "version": "1.2.1",
+      "architecture": "iphoneos-arm",
+      "section": "Utilities",
+      "developer": "ichitaso <willfeeltips@gmail.com>",
+      "depends": "mobilesubstrate, preferenceloader, com.opa334.ccsupport",
+      "size": 192916,
+      "sha256": "a3ce4b5e1ae43870b6dd54811ccadd292394cba6f280004ce4fe0a3c1a10effe",
+      "filename": "./pool/ccsupportpowerselector_1.2.1.deb"
+    },
+    {
+      "name": "WiFi Passwords",
+      "package": "com.malcolmhall.wifipasswords",
+      "version": "3.0.1",
+      "architecture": "iphoneos-arm",
+      "section": "Utilities",
+      "developer": "Malcolm Hall <indiekiduk@gmail.com>",
+      "depends": "firmware (>= 6.0)",
+      "size": 851520,
+      "sha256": "912d66b8455232842ce2dcd99ae98aad4cce17ba878cde48ce2e0f45ba545d58",
+      "filename": "./pool/wifipasswords_3.0.1.deb"
+    },
+    {
+      "name": "Succession",
+      "package": "com.samgisaninja.successionrestore",
+      "version": "1.4.15",
+      "architecture": "iphoneos-arm",
+      "section": "Utilities",
+      "developer": "Samg_is_a_Ninja <samgisaninja@unc0ver.dev>",
+      "depends": "firmware-sbin, rsync",
+      "size": 1000124,
+      "sha256": "9bceafbf67af6a799e1adea9435592cdb1b8e76637ccb09d77160a4420f77a02",
+      "filename": "./pool/successionrestore_1.4.15.deb"
+    },
+    {
+      "name": "Apps Manager",
+      "package": "com.tigisoftware.appdatamanager",
+      "version": "1.8.2-5",
+      "architecture": "iphoneos-arm",
+      "section": "Utilities",
+      "developer": "TIGI Software <satashi2009@gmail.com>",
+      "depends": "firmware (>= 7.0)",
+      "size": 2518478,
+      "sha256": "4ef336fc36f0b132b237a3ffb832259c729c2a237c42e9b39d8ee46573fddc5c",
+      "filename": "./pool/appsmanager_1.8.2-5.deb"
+    },
+    {
       "name": "Filza File Manager",
       "package": "com.tigisoftware.filza",
       "version": "4.0.1-2",
@@ -578,6 +794,18 @@
       "size": 13929994,
       "sha256": "3bed517bf606e7849632b96a727fb1f4e105f6c70d8007dfc4f6789681db98f9",
       "filename": "./pool/com.tigisoftware.filza_4.0.1-2_iphoneos-arm.deb"
+    },
+    {
+      "name": "CocoaTop64",
+      "package": "ru.domo.cocoatop64",
+      "version": "2.2.3",
+      "architecture": "iphoneos-arm",
+      "section": "Utilities",
+      "developer": "Domo <domo@rambler.ru>",
+      "depends": "firmware (>= 10.0)",
+      "size": 232256,
+      "sha256": "c37aae4fd62c5598fac4b6c2aab519a475404586f506c5324d7d0e9686c613e6",
+      "filename": "./pool/cocoatop64_2.2.3.deb"
     }
   ]
 }

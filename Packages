@@ -1,3 +1,21 @@
+Package: adv-cmds
+Priority: important
+Section: Administration
+Installed-Size: 888
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 176-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Provides: ps
+Description: finger, fingerd, last, lsvfs, md, ps
+Filename: ./pool/adv-cmds_176-1_iphoneos-arm.deb
+Size: 52702
+MD5sum: 82f9520ac55c9e322958725b4c0e6b88
+SHA1: 5010decf6f1d0b752657cb4993a9c5b9cdab1966
+SHA256: 2b7c4f182e6ca18e4d8f9c0430f3b46df34bf41f22b6dd0f08bd028fee62f4ef
+SHA512: de17f98e3a3b2545e469bf8be8c43b13f788ec8bfadfb288a2045a085e7ecaff9ce7edb426054cd49bdbe51737081702406e7f803e2a23a72f878bb9f432b9d9
+
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
@@ -19,6 +37,30 @@ MD5sum: d6a31911e878b83e47c6525fa29ecef1
 SHA1: d00d2667c0d5421dddfc70a2734f1d63b972a535
 SHA256: 2bdaac72a6d1b006309b7dd28f51b1e3d351d3d8758fc9f08ca670f1d71eb382
 SHA512: 92577917216cd67f3ce8f640e72de0b3c39128e4e23dc9b9031d387698fcd204db385337ba02fac6bc712e8a3a9ddec113eddd10b690cdae9921c5065cc7d447
+
+Name: Apps Manager
+Package: com.tigisoftware.appdatamanager
+Priority: optional
+Depends: firmware (>= 7.0)
+Version: 1.8.2-5
+Architecture: iphoneos-arm
+Description: Tool to WIPE, BACKUP, RESTORE AppData for installed Apps
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appsmanagerDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appsmanagerDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: TIGI Software <satashi2009@gmail.com>
+Section: Utilities
+Tag: purpose::uikit
+Installed-Size: 9121
+dev: satashi2009
+Icon: file:///Applications/ADManager.app/AppIcon60x60@2x.png
+Filename: ./pool/appsmanager_1.8.2-5.deb
+Size: 2518478
+MD5sum: eb6c5095ab86800f5e49b8df091f07a2
+SHA1: 95d425e279d92a12dbb6ffe4eb6b48523e7ae928
+SHA256: 4ef336fc36f0b132b237a3ffb832259c729c2a237c42e9b39d8ee46573fddc5c
+SHA512: cc1b4157150060852c2a2bd3eaa07e3e833281f241789442a92aa4e145aceb79c653ff0b7c1739e5f5654f7b128ea14b798af061320d83efe6b433a79a76257a
 
 Name: BadgeMeNot
 Package: com.ahmad.badgemenot
@@ -42,6 +84,28 @@ MD5sum: 3e9451f3e64b8104f7bb49bbc3fe2465
 SHA1: aea7cbea074479b2ab2134b77facca9218b4db68
 SHA256: 7562c1225859ca81d36668d34c5c0f3270165d6fdb779f11f39d775d9b837e37
 SHA512: 8c2cb60877b97707f3d47eab4ca0e79c60310a71a9b9e86e7827f40fa15b6a30858cfdd4d3922afbdb469ea39a4e84f8b45e808fe1114117697cc8480a438492
+
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Batchomatic
+Package: com.captinc.batchomatic
+Depends: firmware (>= 11.0), mobilesubstrate, coreutils
+Section: Tweaks
+Installed-Size: 463
+Version: 4.3.1
+Architecture: iphoneos-arm
+Description: Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batchomaticDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batchomaticDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: captinc
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./pool/batchomatic_4.3.1.deb
+Size: 65672
+MD5sum: f8c5302959b1c2686d3d4d9d137c757f
+SHA1: ac13c9880c4e77f364c59f9fcd9f2cb9f0b2b5e9
+SHA256: e607d18a02818484f9f84c4b834df2c3bc18e99e446badc75f5ad761298d98ad
+SHA512: 28599dd57208444af6c65c66565bf5bcbb26e95aa15cdc18e9c9f496c99d1569c7cdb800ba1ac7011fdade085ae05bb2ee1f3c1c20c8744a95a3e29fa24b10d4
 
 Name: BatteryColor
 Package: com.chasewhip.batterycolor
@@ -137,6 +201,104 @@ SHA1: d3eaef9c0f74556cf86cf74ffacfe65c7afd8a20
 SHA256: 6f7ea4f20890ae879e9548b1f0261b8f12b37a6575ae8685d2585ec372669198
 SHA512: dace479335404484d7747c14f4ba980cbf46ecbe5d4b9a937be54e8316b8bce6784eca74470ec44641e4b24776889a4f849a6d3b29fc011330f0e864344c09ef
 
+Author: ichitaso <willfeeltips@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: PowerSelector (iOS 11 & 12)
+Package: com.ichitaso.powerselector11
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Section: Utilities
+Installed-Size: 1712
+Version: 1.2.1
+Architecture: iphoneos-arm
+Description: The power supply relation of a device is operated.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportpowerselectorDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportpowerselectorDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: ichitaso
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/PowerSelectorSettings.bundle/icon@2x.png
+Filename: ./pool/ccsupportpowerselector_1.2.1.deb
+Size: 192916
+MD5sum: d1e53297bfbb14674eccf854eea7f7b5
+SHA1: 7f18f282f983f9ce45a50e658d0f1cc81bf4fe5a
+SHA256: a3ce4b5e1ae43870b6dd54811ccadd292394cba6f280004ce4fe0a3c1a10effe
+SHA512: 4f1d9cd1dca82232238cd82c100c482bfef5ed17571dd663aa060880e88bbab8fc56bd437dc5c4668639cf0a084ac2c4ec2734bf0f0991143126ac7cd0c5d65c
+
+Name: Darwin CC Tools
+Package: org.coolstar.cctools
+Priority: optional
+Depends: openssl, uuid, org.coolstar.ld64
+Conflicts: odcctools
+Provides: odcctools
+Version: 895
+Architecture: iphoneos-arm
+Description: tools to work with mach-o files
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cctoolsDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cctoolsDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: CoolStar <coolstarorganization@gmail.com>
+dev: coolstar
+Section: Development
+Tag: purpose::console
+Installed-Size: 11712
+Filename: ./pool/cctools_895.deb
+Size: 1288458
+MD5sum: 38f20640869ae66dd14c3b6992fd9379
+SHA1: 78dd7b91dfc8ef47c493d5b5c674dd612247c79d
+SHA256: 09debe36e1d3655a8504492d3a3b949a622291f5d9ae781089e1264123f88e24
+SHA512: 2927daf264794f26ed31fbf4b0f0fe37f9ff9c346c2be1758267d08ddc7e55448cf465a744f94ed6549f6d075937fb690b3e482b785ddebe09c82ab7c7a95b5f
+
+Author: opa334 <opa334@protonmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Choicy
+Package: com.opa334.choicy
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Section: Tweaks
+Installed-Size: 1343
+Version: 1.5.4-2
+Architecture: iphoneos-arm
+Description: Advanced Tweak Configuration!
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
+Tag: purpose::extension
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
+Filename: ./pool/choicy_1.5.4-2.deb
+Size: 261546
+MD5sum: 07aff47e221f5458b12b3a8dc99ab079
+SHA1: eafea801025f5b2ef70254c3e18c4f2c34b7833c
+SHA256: 8e7b2a33430b46c2544b79373b8a10e0e641e311a2d319d7a0adfad7d279bebf
+SHA512: 8cb8179682b6a12fd937740e085c0b0163d84d6eb3358e65b4eab47a97dce4675612e33baaa70e7f0366e9fcba6ce7acafe2b53fd20dde0999c113fc94eb4c93
+
+Author: Domo <domo@rambler.ru>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: CocoaTop64
+Package: ru.domo.cocoatop64
+Depends: firmware (>= 10.0)
+Conflicts: ru.domo.cocoatop
+Section: Utilities
+Installed-Size: 915
+Version: 2.2.3
+Architecture: iphoneos-arm
+Description: Process Viewer for iOS 10-13
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cocoatop64Dp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cocoatop64Dp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: domo
+Tag: purpose::uikit
+Icon: file:///Applications/CocoaTop.app/Icon.png
+Filename: ./pool/cocoatop64_2.2.3.deb
+Size: 232256
+MD5sum: da9a9e05ef94810edf785413b9fecb4c
+SHA1: c0721671a1f43a50207d366c42de6e66f0b10293
+SHA256: c37aae4fd62c5598fac4b6c2aab519a475404586f506c5324d7d0e9686c613e6
+SHA512: 462668a7b59d00bd8c6717ea0be45e9461b2a091ab5fb6145f4188033ab24c46d54c20c23746cee82356176fc8e6236f7ff1617772f5fb85a31d4c84407dd6dd
+
 Package: com.ivintagelover.locktimex
 Name: LockTimeX
 Version: 1.2
@@ -151,6 +313,23 @@ MD5sum: b63472ced4da3ad40db67c6a792ede09
 SHA1: 11d4f009ac03d37d6063b992dfb7678661ba1e0f
 SHA256: ac1bd0e507d4631de98a44cdf4cc32b2b24728ad86d8d429d555d523fd2e5893
 SHA512: 8d679e35c3bdf38792c429daefb320b4191049dd509e9cf19cf1da39b41d3a82fe2ad69d2415e821536491c6e6b5d5dd1df975e016f5e48cc4bc9352e50c5501
+
+Package: com.muirey03.cr4shed
+Name: Cr4shed
+Depends: mobilesubstrate, com.muirey03.libmryipc, cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
+Architecture: iphoneos-arm
+Description: A modern crash reporter for iOS
+Maintainer: Muirey03
+Author: Muirey03
+Section: Tweaks
+Version: 4.3.0
+Installed-Size: 1384
+Filename: ./pool/com.muirey03.cr4shed_4.3.0_iphoneos-arm.deb
+Size: 149078
+MD5sum: 293df1ba4eea1c3787ff31c0114725a7
+SHA1: 30aa8b231bb41dca965c57218918d307babe375d
+SHA256: 7a58e56ff3b6e13a3ab604f35cf1d04300e28f95b8f5cee1ef0bbbee80dba049
+SHA512: 0214d967a516afda8b2d95206642f226695aa6f942d8be983243683a5960556c69f7a7d384b2d99f653cab9e7cf0ca6e3c552073c96dd07648327f6ab1c8548b
 
 Package: com.ps.batterypercentageenabler
 Name: Battery Percentage Enabler
@@ -491,6 +670,27 @@ SHA1: e3fae6d76d33e203a24df0f8d490e98251aa9fdc
 SHA256: 7bcde30012eb7829c35e4aaa76d7e08d09a33cdb29bdc930be10c582257a9afb
 SHA512: b7afdcca41205f73865986f16ac3a28b33804b7900ce60c8300adf9d3037c3cb04f9349292fcfe51472228537c13d913d53bc7cc84260689fb99f1a95282fd5a
 
+Package: cycript
+Priority: optional
+Section: Development
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.9.594
+Description: runtime execution server and disassembler
+Name: Cycript
+Depends: readline, adv-cmds, mobilesubstrate (>= 0.9.6300)
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: cydget (<< 0.9.4008)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cycript/
+Tag: purpose::daemon, role::developer
+Filename: ./pool/cycript_0.9.594_iphoneos-arm.deb
+Size: 1225008
+MD5sum: cb2d5d1a2806e5da8d2d80c767b0cd36
+SHA1: 1688b612736ae9e51b30230f4519a60865a1d6ba
+SHA256: d522870cf118466a27854ed0d3ead9fa1f102365016375e204c97d34a9408ca1
+SHA512: aca801ed3aa9fcfe0bf686f289982754329864177b1732a6dc1af4e061582343c4fa173c2b4be1bc4eccf556a34430a1402922f5b1d5c63fdcb0e774ffc0d9fd
+
 Author: Reed Weichler <rweichler+cydia@gmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Name: Cylinder
@@ -626,6 +826,42 @@ MD5sum: 382dba4d540b6818ae3af891ad5b4b4b
 SHA1: 43d0ed1e7da465f4558cc1fbb0b395326a46424a
 SHA256: 8a69b395d80ea7de7dedca3afdd4d2d4dd39365c5fb432ce95c0a57bf70743d2
 SHA512: 99adb00923ce639da1378ad48c41525eb3c7e65374f089345090e46fe766b6cb53b65510789066fbec16083489a61fb8f031a278e1faeef3546cf4c322f880ec
+
+Package: liblldb-10
+Priority: optional
+Section: Development
+Installed-Size: 31944
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 10.0.0~svn-20200108+247e5b37d63-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libllvm10, libclang-cpp10, xz, python
+Description: Next generation, high-performance debugger, library
+Homepage: https://www.llvm.org/
+Filename: ./pool/liblldb-10_10.0.0~svn-20200108+247e5b37d63-1_iphoneos-arm.deb
+Size: 3442480
+MD5sum: 4efd9a09439d2be882f44bbaa02fa92d
+SHA1: 61c2d2f6d50c49fcfbeef9b79f3ba392ed0feb02
+SHA256: 302f872f0e5f414806362f3e052484d764f1bea8bd63bf97a0060fc23acd922f
+SHA512: 69080f1a2d8271160ee4cc11bd90a890843be99e05feca7211b57549e2e6931ed9d9a9951796a8f16af13458fcf83dfaaaca1ddb595b91d6e41f9a11d04cb4d4
+
+Package: lldb-10
+Priority: optional
+Section: Development
+Installed-Size: 5632
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 10.0.0~svn-20200108+247e5b37d63-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: liblldb-10, debugserver-10
+Description: Next generation, high-performance debugger
+Homepage: https://www.llvm.org/
+Filename: ./pool/lldb-10_10.0.0~svn-20200108+247e5b37d63-1_iphoneos-arm.deb
+Size: 653552
+MD5sum: f123ec406e876343a57441b0c66423c5
+SHA1: 20f757a9594928ab18013e36898cea88f3ee6f8b
+SHA256: 6501f5e9ca4f190ffc11c522cd5bf8592ef789c583b00b57e2392aff276e6493
+SHA512: 6a18b226080988774ba7a653b0c9cd8f3bf12c8c9a45352d53af41e6b7053adb7fdeaddc6850e9dc86d7d4492676cfd657c32fd2f027e906b21d866d465ad144
 
 Name: LockScreenBugFix for iOS 11 & 12
 Package: com.ahrabie.lockscreenbugfix
@@ -849,6 +1085,107 @@ SHA1: b28771c9fcd48d035f92dbe67e70247e4e4a1569
 SHA256: c96d93a77e0b3f60680c87e8fa6f10953c714fafca50b58030e410378dabe905
 SHA512: 30b6499626c491d214293a2f2ce4f77d12adce9c9841f60b334de9bbe658bcfd497007d468bd785001b8e505ee71d146b7c03f890d7c9f78523dda181704abae
 
+Package: openssh-client
+Priority: important
+Section: Networking
+Installed-Size: 8960
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 8.4-2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1
+Breaks: openssh (<= 8.4-1)
+Description: secure shell (SSH) client, for secure access to remote machines
+ This is the portable version of OpenSSH, a free implementation of the 
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and 
+ for executing commands on a remote machine.  It provides secure 
+ encrypted communications between two untrusted hosts over an insecure 
+ network. X11 connections and arbitrary TCP/IP ports can also be 
+ forwarded over the secure channel.  It can be used to provide 
+ applications with a secure communication channel.
+ .
+ This package provides the client binaries.
+ .
+ In some countries it may be illegal to use any encryption at all 
+ without a special permit.
+Name: OpenSSH Clients
+Depiction: http://cydia.saurik.com/info/openssh/
+Filename: ./pool/openssh-client_8.4-2_iphoneos-arm.deb
+Size: 568946
+MD5sum: 1186ac8493773028650fffd175adf44d
+SHA1: b7c4091431d4eaa3b652b5ab870a32668a921e79
+SHA256: cf0c5846564ba8dc28ff75fff3c0ff1d63c8c404abc9643fe7e22affa55afa82
+SHA512: 31bfc597dc7939601ceca087d04f9b6be7fdee8f2c51f6fd4c8db49a7d2c21e5d222bb884c1c896dd403a99b870741f34c1af135894eea4f92ee7044c9a142fc
+
+Package: openssh-server
+Priority: important
+Section: Networking
+Installed-Size: 1880
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 8.4-2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1, openssh-client (>= 8.4)
+Breaks: openssh (<= 8.4-1)
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the 
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and 
+ for executing commands on a remote machine.  It provides secure 
+ encrypted communications between two untrusted hosts over an insecure 
+ network. X11 connections and arbitrary TCP/IP ports can also be 
+ forwarded over the secure channel.  It can be used to provide 
+ applications with a secure communication channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all 
+ without a special permit.
+Name: OpenSSH Server Binaries
+Depiction: http://cydia.saurik.com/info/openssh/
+Filename: ./pool/openssh-server_8.4-2_iphoneos-arm.deb
+Size: 289990
+MD5sum: 259499fcbb9b26fedbecdeaaee420fe1
+SHA1: 015a2133dacd72994d3beed76522914eb1071c83
+SHA256: 5eab9bf07f41bc3be79e977a3ea170add9e15e40cb8b84ac09901f11d9cd7768
+SHA512: 4aae6a7cb49f06fd57c302767514805c0861e31e38020f06fdf36810a0948d6520985771bb58c0f9c8f9d5a9d8bb32b71379e72a7fb341c00fc1649380f02ded
+
+Package: openssh
+Priority: important
+Section: Networking
+Installed-Size: 8
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 8.4-2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1, openssh-server, openssh-client, openssh-global-listener
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the 
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and 
+ for executing commands on a remote machine.  It provides secure 
+ encrypted communications between two untrusted hosts over an insecure 
+ network. X11 connections and arbitrary TCP/IP ports can also be 
+ forwarded over the secure channel.  It can be used to provide 
+ applications with a secure communication channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all 
+ without a special permit.
+Name: OpenSSH
+Depiction: http://cydia.saurik.com/info/openssh/
+Filename: ./pool/openssh_8.4-2_iphoneos-arm.deb
+Size: 1022
+MD5sum: 6c1f11f33cf21944c892351e0ea3b9c1
+SHA1: 018ccd5f56ddd90d3ba3a391e5cf6c7ddce2bae9
+SHA256: aa7417489ad4d823713905347804b3fd1f481b710ec2512bed9d22b356875454
+SHA512: 6895c00359a1db6557967d3f796e2470c208daee9743dbbfe049820ede8e1c461df71b22158a4624424726748bf19650929cc117e44e3a790ef2a2dfef5cf87a
+
 Name: PasscodeComesFirst
 Package: com.ahrabie.passcodecomesfirst
 Priority: optional
@@ -916,6 +1253,23 @@ SHA1: 48cd0689d3981d355d6984ce72a4ac19f99d3554
 SHA256: 1913fdb5e1f306ec376a1d58d75dfe2276e29bbfedfd056657c627c485c6a39c
 SHA512: efc737489142dc227faa12a1cd98d364510bc70b95f05d3d55b33e561001c25595be3e9def043e2c0b28f5c268b0fdd04526747388bd8a4e2f3d452347ea7f40
 
+Package: rsync
+Priority: important
+Section: Networking
+Installed-Size: 1056
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 3.1.3-2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: synchronize files between computers
+Homepage: http://www.samba.org/rsync/
+Filename: ./pool/rsync_3.1.3-2_iphoneos-arm.deb
+Size: 204536
+MD5sum: b2dd5ce3b38d3dda17367f88d7e37b2d
+SHA1: 7caf0f654bbb562baba0bc8100c38b55ae29fbf8
+SHA256: 7b9442cc2b4b633103437f9eb2293d3d2aade68a836f808aea9aa2fb143ce69b
+SHA512: 57c6f8dada6f1f50ee25d80ce19e8c6198f4765ec06c7a183e5d0e43313c7dcb1278c04b5d3daaaefea35a333e5272c1486ccc9e19d8687f0e7c51a228aebcfd
+
 Author: opa334 <opa334@protonmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Name: Safari Plus
@@ -961,6 +1315,47 @@ SHA1: bf6cd148622d7db8e497c918c12e0d15d1f130d4
 SHA256: d08938dc9211f9d0ae57a592c4e2d3c6d9be551acf420623af6b4918da5cd50a
 SHA512: 53e39004f0a503fa70ec1048f1e95fb1f332484b1c2d327e077d7e5a4e5b76ba3702313675c2c951a5f05594081b9df0eea4800eeab24ae3a669886323bea916
 
+Name: Succession
+Package: com.samgisaninja.successionrestore
+Priority: optional
+Depends: firmware-sbin, rsync
+Version: 1.4.15
+Architecture: iphoneos-arm
+Description: Restore without updating via rootfilesystem DMG
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=successionrestoreDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=successionrestoreDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Samg_is_a_Ninja <samgisaninja@unc0ver.dev>
+Section: Utilities
+Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Installed-Size: 2522
+dev: stgardner4
+Icon: file:///Applications/SuccessionRestore.app/AppIcon20x20@3x.png
+Filename: ./pool/successionrestore_1.4.15.deb
+Size: 1000124
+MD5sum: c8a70a0555dae8337e57c833829eca72
+SHA1: 49b1b3989a75703603a5bfd4a93f93cf04cf2e32
+SHA256: 9bceafbf67af6a799e1adea9435592cdb1b8e76637ccb09d77160a4420f77a02
+SHA512: 4433973c89a00bb776d8afcf1d22a38e5644c5736069cfea4810c7c38524a277fca8f00cb6f1eea319805cef3c8ee426a36ea61d11c4f22fc2186e23911616a7
+
+Package: top
+Priority: important
+Section: Administration
+Installed-Size: 456
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 39-2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Description: at-a-glance process watching tool
+Filename: ./pool/top_39-2_iphoneos-arm.deb
+Size: 60866
+MD5sum: 38db275007a331e7ff8899ea22261dc7
+SHA1: dd96e73245b500223fe187e6144625b5da7da5da
+SHA256: bc7dbe5057579b29b1e5759b29bc892323188d29f92d15f7576b008d7c009bf9
+SHA512: ce3b4c42858bef4653f5045a0f4a7d2e0c9db401c1dc52eea05375f8f30f1e4647526f83bdc84df2c8896730501d718da40e24f33ee80b1b2b0dc7c3d2fd452d
+
 Package: weeb.lillie.youtubedislikesreturn
 Version: 1.14.2
 Architecture: iphoneos-arm
@@ -980,6 +1375,50 @@ MD5sum: 106ef0bb9850d771226f612bef920415
 SHA1: 3c1b1f4cb7293da4e8b38ee819624c70332a696f
 SHA256: 1e752b45d71d446ea4235c9d0191e84f65fcf7653e64832314607dcda3a6917f
 SHA512: 86614b8ba202dc453bb2d3da80fd709e9f412087290b9a3f1596a52211ad97c38fab92091e8c23d2f3093fdd8d08799cb6c3eef90114e7c0f75ec0ef0ed072a6
+
+Package: com.malcolmhall.wifipasswords
+Depends: firmware (>= 6.0)
+Name: WiFi Passwords
+Version: 3.0.1
+Architecture: iphoneos-arm
+Description: shows previously entered wifi passwords
+	This app displays every WiFi password you have ever entered. Very handy if you forgot a password and need to connect another device, or tell a friend the password for a coffee shop without asking that embarrassing question again. Tap hold on the password to copy it to the clipboard. Requires iOS 3.0 or later.
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Malcolm Hall <indiekiduk@gmail.com>
+Section: Utilities
+Installed-Size: 4112
+Icon: file:///Applications/WiFiPasswords.app/Icon.png
+dev: malcolmhall
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifipasswordsData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifipasswordsData
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
+Filename: ./pool/wifipasswords_3.0.1.deb
+Size: 851520
+MD5sum: c343f3b61169b5ebb122a06911d7d204
+SHA1: 1288ca075f3d22d8bd619c09f1fca184928cd1ea
+SHA256: 912d66b8455232842ce2dcd99ae98aad4cce17ba878cde48ce2e0f45ba545d58
+SHA512: a8fc9bedc0489c29728bd5dd8ecf83fdedd3efb25ca6c3e945ed5b50fb5069d4e6a4d761a63414beb8c5bbfb34c8a09c81e1749560b77de3e45b79a271dc0035
+
+Package: xyz.willy.zebra
+Name: Zebra
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Description: A Useful Package Manager
+Maintainer: Zebra Team <team@getzbra.com>
+Author: Zebra Team <team@getzbra.com>
+Section: Packaging
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+Tag: compatible::9.0-16.6
+Architecture: iphoneos-arm
+Version: 1.1.36
+Installed-Size: 15032
+Filename: ./pool/xyz.willy.zebra_1.1.36_iphoneos-arm.deb
+Size: 8451692
+MD5sum: f28880aa6be9a0556000cc7f58c5c3ad
+SHA1: 06e3fcec78dba4e3450a0dac0c27bc0af75bd8a7
+SHA256: e724e4e45807880b9a4122100e89c4ea8326ce56dd3223abbbb01757779d5f5f
+SHA512: 9d73acf3a4f8ff2d97abdb7ccd6209caa86a9a0557bc7748f2ae1875e5f4d2d2ffe22cbba4a9a5cf91fc535605c8aca3eb787fc72fbb4bf16e4ce92192ae95b5
 
 Package: com.muirey03.zenith
 Name: Zenith
