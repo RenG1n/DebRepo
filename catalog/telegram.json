@@ -22,7 +22,8 @@
     "official_page": null,
     "ios12": "compatible",
     "chimera": "expected OK (rootful, substrate-compatible)",
-    "distribution": "NOT DISTRIBUTABLE (commercial/proprietary; catalog only)",
-    "deb_added": false
+    "distribution": "Свободный пакет, зеркалируется из официального репозитория (авторство сохранено)",
+    "deb_added": true,
+    "deb_file": "bettertelegram_1.0.1.deb"
   }
 ]

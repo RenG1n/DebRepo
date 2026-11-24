@@ -20,6 +20,78 @@ SHA1: d00d2667c0d5421dddfc70a2734f1d63b972a535
 SHA256: 2bdaac72a6d1b006309b7dd28f51b1e3d351d3d8758fc9f08ca670f1d71eb382
 SHA512: 92577917216cd67f3ce8f640e72de0b3c39128e4e23dc9b9031d387698fcd204db385337ba02fac6bc712e8a3a9ddec113eddd10b690cdae9921c5065cc7d447
 
+Name: BadgeMeNot
+Package: com.ahmad.badgemenot
+Priority: optional
+Depends: firmware (>= 12.0), mobilesubstrate
+Version: 1.1.4
+Architecture: iphoneos-arm
+Description: Remove iOS 12/13 update badge from Settings app icon
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=badgemenotDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=badgemenotDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ahmad <sahmmadh@gmail.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios12, compatible::ios13
+Installed-Size: 132
+dev: sahmmadh
+Filename: ./pool/badgemenot_1.1.4.deb
+Size: 4938
+MD5sum: 3e9451f3e64b8104f7bb49bbc3fe2465
+SHA1: aea7cbea074479b2ab2134b77facca9218b4db68
+SHA256: 7562c1225859ca81d36668d34c5c0f3270165d6fdb779f11f39d775d9b837e37
+SHA512: 8c2cb60877b97707f3d47eab4ca0e79c60310a71a9b9e86e7827f40fa15b6a30858cfdd4d3922afbdb469ea39a4e84f8b45e808fe1114117697cc8480a438492
+
+Name: BetterTelegram
+Package: com.cydiageek.bettertelegram
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Better options for Telegram & More!
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bettertelegramDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bettertelegramDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11
+Installed-Size: 502
+dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/BetterTelegram.bundle/icon@2x.png
+Filename: ./pool/bettertelegram_1.0.1.deb
+Size: 56122
+MD5sum: d541a4c77607441503a93ec7c3abe8c6
+SHA1: 9b213a9ca546885e3f38e7800d968d69ff3cdcd6
+SHA256: 93e7f1937540d8ef56bf9d2933f8899517cb8f86e3929fbadd2479756d82a355
+SHA512: 1f7684495294570a2e7c891b9bd28545ab8774a5629c06b4e9e86b829f3c29d9aa0498f4b4717c95e1c5f88c75de52942f1184206af4128bf91f50a923c104b2
+
+Author: opa334 <opa334@protonmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: CCSupport
+Package: com.opa334.ccsupport
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Provides: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Conflicts: com.ioscreatix.silo
+Section: Tweaks
+Installed-Size: 423
+Version: 1.3.13-2
+Architecture: iphoneos-arm
+Description: Support tweak for CC modules!
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
+Tag: purpose::extension
+Filename: ./pool/ccsupport_1.3.13-2.deb
+Size: 64444
+MD5sum: 53582b19fdb575fa8eae3bc0e2fabe06
+SHA1: d3eaef9c0f74556cf86cf74ffacfe65c7afd8a20
+SHA256: 6f7ea4f20890ae879e9548b1f0261b8f12b37a6575ae8685d2585ec372669198
+SHA512: dace479335404484d7747c14f4ba980cbf46ecbe5d4b9a937be54e8316b8bce6784eca74470ec44641e4b24776889a4f849a6d3b29fc011330f0e864344c09ef
+
 Package: com.ivintagelover.locktimex
 Name: LockTimeX
 Version: 1.2
@@ -34,6 +106,45 @@ MD5sum: b63472ced4da3ad40db67c6a792ede09
 SHA1: 11d4f009ac03d37d6063b992dfb7678661ba1e0f
 SHA256: ac1bd0e507d4631de98a44cdf4cc32b2b24728ad86d8d429d555d523fd2e5893
 SHA512: 8d679e35c3bdf38792c429daefb320b4191049dd509e9cf19cf1da39b41d3a82fe2ad69d2415e821536491c6e6b5d5dd1df975e016f5e48cc4bc9352e50c5501
+
+Package: com.ps.ytx
+Name: YouTube X
+Description: A YouTube improvement tweak.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
+Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
+Architecture: iphoneos-arm
+Version: 1.7.24
+Installed-Size: 56
+Filename: ./pool/com.ps.ytx_1.7.24_iphoneos-arm.deb
+Size: 6350
+MD5sum: 8d6c91e6058f779a0a8ed144b1c65089
+SHA1: 23f88ba448c19348b9423ae3cbbeadc956b4411b
+SHA256: 8486651748041ed595e44de4892492b1687574047d0bab664ec92a2f419e5b04
+SHA512: 002d2027ad0d27c5d4e7daa65f4012c10054155b0c5d291cd2a2bd541c836ecdb070af2944c40f1708b6642560e02f8f0a818364bca49127931af5287f319b2f
+
+Package: com.ryannair05.cylinder
+Version: 1.2.0
+Architecture: iphoneos-arm
+Section: Tweaks
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 1567
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Name: Cylinder Reborn
+Description: Make your icons dance
+Icon: https://img.chariz.cloud/icon/cylinder-reborn/icon@3x.png
+Depiction: https://chariz.com/get/cylinder-reborn
+Tag: compatible_min::ios11.0
+Filename: ./pool/com.ryannair05.cylinder_1.2.0_iphoneos-arm.deb
+Size: 291014
+MD5sum: c1f00dd4c1cfb0ee9c28d981a722cd20
+SHA1: 34dd14862e1df190e39531b024a2f90d65880151
+SHA256: 5a946498af10b6432a21b2a69db6c9876bf97e37d0794438183338f69ec1f36c
+SHA512: e943bf6025216aab039e961942b5627d061654184c9a062234d1c0d1cc3f86be8e459b2c9834036b4d855df804e8933e411243016c28ddf2acc28e91fd0b066a
 
 Package: com.spark.snowboard.cw
 Name: SnowBoard
@@ -73,3 +184,91 @@ MD5sum: c68a629c82d46f5a49ec8c93b750bb92
 SHA1: 677bae75af27ed30af0934048c439565498a1908
 SHA256: 3bed517bf606e7849632b96a727fb1f4e105f6c70d8007dfc4f6789681db98f9
 SHA512: 527066c37324d08338104cf476b345b85034118d7cb34d711bcbd48f6ef06ebe9d3008adc68d8f68eb1e666100afce2e8562c3cf77bc3e26547e90b8ade8b3a7
+
+Author: Reed Weichler <rweichler+cydia@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Cylinder
+Package: com.r333d.cylinder
+Section: Tweaks
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Make your icons dance
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+dev: rweichler
+Installed-Size: 1419
+Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
+Filename: ./pool/cylinder_1.1.deb
+Size: 300358
+MD5sum: c24e9c9b3f4096a8b93080207fac5580
+SHA1: dd35f74c38b9ac3652a134136e4ffcb15db67329
+SHA256: 5ddac771540c6f8f8e1ada87fa0deae2f85e1aac2536d125aaa0787667528cd4
+SHA512: afd0e0317410cdc8725aab5ca5598c49151eba20e12defe9709394da37942943877c0564c5b4e36190264394ef98a31212d4967047ed10b61f5ccb787b8aba6d
+
+Name: HuddyX
+Package: com.maximehip.huddyx
+Priority: optional
+Depends: firmware (>= 12.0), mobilesubstrate
+Version: 1.2
+Architecture: iphoneos-arm
+Description: A new volume HUD for notch devices.
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=huddyxDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=huddyxDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: maximehip <imax-my@live.fr>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios12
+Installed-Size: 115
+dev: maximehip
+Filename: ./pool/huddyx_1.2.deb
+Size: 18416
+MD5sum: 97c5c43dfa00b5610b23f4db9708c708
+SHA1: 1bbd8c8d15f3e01fc73423ea94dfec3ae69608fa
+SHA256: 6e348c09e15eb3013c73b629a3cb08233e56ab31755bb9e2a397b20160aef498
+SHA512: 19cf7fe22b23b0a95ac3505f24957d7c6f1a28017da57feabac50eb7d7b8e1ab1ae31ce3fdd20f37f61011a55f50914ce34c03b2ebcfda86ee297d347e35ec8e
+
+Author: Jake James <jakeashacks@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: RealCC
+Package: com.jakeashacks.realcc
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Section: Tweaks
+Installed-Size: 102
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Actually disable Wi-Fi from the iOS 11 CC
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=realccDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=realccDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: jakeashacks
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Filename: ./pool/realcc_1.0.2.deb
+Size: 4186
+MD5sum: 4cd08f43cce7af370fda8e60a86e3561
+SHA1: 8f0161114800f18a38551b01b5192a10f36c85cf
+SHA256: 20bfa5de12cbf0ef2014b29a3f16f6aeb96ec1f7f5bae13988c5d7c89043b886
+SHA512: e3c8c37eb6e5092b892b38c08a25cb76af34072affdb2c15cfdaa2046c6db3de5ae3c96b369df80f27f5c79e90a865b8fa20fd614cb53f92456e8a1ff42367a8
+
+Package: weeb.lillie.youtubedislikesreturn
+Version: 1.14.2
+Architecture: iphoneos-arm
+Section: Tweaks
+Maintainer: PoomSmart and kirb <ytdislikesreturn@gmail.com>
+Author: PoomSmart and kirb <ytdislikesreturn@gmail.com>
+Installed-Size: 215
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Name: Return YouTube Dislike
+Description: Brings Back Dislikes On iOS YouTube
+Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
+Depiction: https://chariz.com/get/return-youtube-dislike
+Tag: compatible_min::ios11.0
+Filename: ./pool/weeb.lillie.youtubedislikesreturn_1.14.2_iphoneos-arm.deb
+Size: 27120
+MD5sum: 106ef0bb9850d771226f612bef920415
+SHA1: 3c1b1f4cb7293da4e8b38ee819624c70332a696f
+SHA256: 1e752b45d71d446ea4235c9d0191e84f65fcf7653e64832314607dcda3a6917f
+SHA512: 86614b8ba202dc453bb2d3da80fd709e9f412087290b9a3f1596a52211ad97c38fab92091e8c23d2f3093fdd8d08799cb6c3eef90114e7c0f75ec0ef0ed072a6

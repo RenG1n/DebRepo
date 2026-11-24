@@ -95,7 +95,9 @@
     "depends": "firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)",
     "source_repo": "http://apt.thebigboss.org/repofiles/cydia/",
     "status": "PARTIALLY VERIFIED",
-    "distribution": "NOT DISTRIBUTABLE without author permission; catalog only"
+    "distribution": "Свободный пакет, зеркалируется из официального репозитория (авторство сохранено)",
+    "deb_added": true,
+    "deb_file": "ccsupport_1.3.13-2.deb"
   },
   {
     "name": "Email Safari Screenshot",
@@ -277,7 +279,9 @@
     "depends": "mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)",
     "source_repo": "https://repo.chariz.com/",
     "status": "PARTIALLY VERIFIED",
-    "distribution": "NOT DISTRIBUTABLE without author permission; catalog only"
+    "distribution": "Свободный пакет, зеркалируется из официального репозитория (авторство сохранено)",
+    "deb_added": true,
+    "deb_file": "weeb.lillie.youtubedislikesreturn_1.14.2_iphoneos-arm.deb"
   },
   {
     "name": "Return YouTube Music Dislike",
@@ -445,7 +449,9 @@
     "depends": "mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies",
     "source_repo": "https://poomsmart.github.io/repo/",
     "status": "PARTIALLY VERIFIED",
-    "distribution": "NOT DISTRIBUTABLE without author permission; catalog only"
+    "distribution": "Свободный пакет, зеркалируется из официального репозитория (авторство сохранено)",
+    "deb_added": true,
+    "deb_file": "com.ps.ytx_1.7.24_iphoneos-arm.deb"
   },
   {
     "name": "iPad Pro KeyBoard",

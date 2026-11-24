@@ -48,8 +48,9 @@
     "official_page": "http://apt.thebigboss.org/",
     "ios12": "compatible",
     "chimera": "expected OK (rootful, substrate-compatible)",
-    "distribution": "NOT DISTRIBUTABLE (commercial/proprietary; catalog only)",
-    "deb_added": false
+    "distribution": "Свободный пакет, зеркалируется из официального репозитория (авторство сохранено)",
+    "deb_added": true,
+    "deb_file": "cylinder_1.1.deb"
   },
   {
     "name": "Cylinder Reborn",
@@ -74,8 +75,9 @@
     "official_page": "https://repo.chariz.com/",
     "ios12": "compatible",
     "chimera": "expected OK (rootful, substrate-compatible)",
-    "distribution": "NOT DISTRIBUTABLE (commercial/proprietary; catalog only)",
-    "deb_added": false
+    "distribution": "Свободный пакет, зеркалируется из официального репозитория (авторство сохранено)",
+    "deb_added": true,
+    "deb_file": "com.ryannair05.cylinder_1.2.0_iphoneos-arm.deb"
   },
   {
     "name": "Eclipse 12",
@@ -165,7 +167,8 @@
     "official_page": null,
     "ios12": "compatible",
     "chimera": "expected OK (rootful, substrate-compatible)",
-    "distribution": "NOT DISTRIBUTABLE (commercial/proprietary; catalog only)",
-    "deb_added": false
+    "distribution": "Свободный пакет, зеркалируется из официального репозитория (авторство сохранено)",
+    "deb_added": true,
+    "deb_file": "badgemenot_1.1.4.deb"
   }
 ]
