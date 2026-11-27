@@ -331,6 +331,23 @@ SHA1: 30aa8b231bb41dca965c57218918d307babe375d
 SHA256: 7a58e56ff3b6e13a3ab604f35cf1d04300e28f95b8f5cee1ef0bbbee80dba049
 SHA512: 0214d967a516afda8b2d95206642f226695aa6f942d8be983243683a5960556c69f7a7d384b2d99f653cab9e7cf0ca6e3c552073c96dd07648327f6ab1c8548b
 
+Package: com.obscura.vpn
+Name: Obscura VPN
+Description: Obscura VPN client foundation for iOS 12 jailbreak (VPN backend not yet integrated).
+Maintainer: Obscura Project
+Author: Obscura Project
+Section: Networking
+Depends: firmware (>= 12.0)
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 96
+Filename: ./pool/com.obscura.vpn_1.0.0_iphoneos-arm.deb
+Size: 15780
+MD5sum: 4a2563547fbd859e43d37efbc0a9803f
+SHA1: 742e8bfafc135fbe6a3a1029825ca03f76ca342f
+SHA256: c23776b3a3bd557b924a10b42365535e9cdb4b3ebc3b1d0db54b48752d705522
+SHA512: 64e6feafa8934440bc257cb9f8b3cd47244f089e4deed0922eb0a576567feb32cf5e01325b41e24cd2e9252ae90f0f2a11253558860a94324f8a4da582bea807
+
 Package: com.ps.batterypercentageenabler
 Name: Battery Percentage Enabler
 Architecture: iphoneos-arm
